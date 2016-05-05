@@ -5,6 +5,7 @@ var React = require('react-native');
 var {
     StyleSheet,
     Text,
+    TextInput,
     View,
     AppRegistry,
     Image
@@ -14,10 +15,6 @@ var Login = React.createClass({
     render: function(){
         return (
             <View style={styles.container}>
-                <Image
-                    style={styles.logo}
-                    source={require('octocat')}
-                />
                 <Text style={styles.heading}>
                     Github browser
                 </Text>
